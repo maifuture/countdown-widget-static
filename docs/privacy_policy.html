@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 时光寄语</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f7;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1d1d1f;
+            border-bottom: 2px solid #0071e3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1d1d1f;
+            margin-top: 30px;
+        }
+        .update-date {
+            color: #86868b;
+            font-size: 14px;
+        }
+        ul {
+            color: #333;
+        }
+        .check { color: #34c759; }
+        .cross { color: #ff3b30; }
+        .contact {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>隐私政策</h1>
+        <p class="update-date">更新日期：2026 年 4 月 9 日</p>
+        <p><strong>应用名称</strong>：时光寄语</p>
+
+        <h2>概述</h2>
+        <p>时光寄语是一款简单的倒计时小组件应用。我们高度重视您的隐私，本应用<strong>不收集、存储或传输</strong>任何个人数据。</p>
+
+        <h2>数据收集说明</h2>
+        <h3>本应用<span class="cross">不收集</span>以下数据：</h3>
+        <ul>
+            <li>个人身份信息（姓名、邮箱、电话等）</li>
+            <li>位置信息</li>
+            <li>设备标识符</li>
+            <li>使用统计数据</li>
+            <li>第三方分析数据</li>
+        </ul>
+
+        <h3>本应用<span class="check">本地存储</span>的数据：</h3>
+        <ul>
+            <li>您创建的倒计时事件（仅存储在您的设备上）</li>
+            <li>AI 配置信息（Base URL、Token 等，仅存储在您的设备 Keychain 中）</li>
+        </ul>
+
+        <h2>数据存储方式</h2>
+        <p>所有数据均存储在您设备的本地存储中：</p>
+        <ul>
+            <li><strong>iOS</strong>: 使用 UserDefaults 和 Keychain 存储</li>
+            <li><strong>Android</strong>: 使用 SharedPreferences 存储</li>
+        </ul>
+        <p>我们<strong>没有服务器</strong>，因此您的数据永远不会离开您的设备（除了您主动配置的 AI API 服务）。</p>
+
+        <h2>第三方服务</h2>
+        <h3>AI 祝福语功能（可选）</h3>
+        <p>如果您选择启用 AI 祝福语功能：</p>
+        <ul>
+            <li>您需要自行配置 AI API（如 Zhipu AI、Moonshot 等）</li>
+            <li>您的事件名称和天数会发送到您配置的 AI 服务商</li>
+            <li>我们<strong>不会</strong>收到或存储这些请求的任何数据</li>
+            <li>请查阅相应 AI 服务商的隐私政策</li>
+        </ul>
+
+        <h3>小组件功能</h3>
+        <p>使用 iOS WidgetKit 和 Android AppWidget，数据通过系统提供的 App Groups/SharedPreferences 共享，不会离开您的设备。</p>
+
+        <h2>权限说明</h2>
+        <h3>iOS 权限</h3>
+        <ul>
+            <li><strong>网络权限</strong>：仅用于 AI 祝福语功能（需用户自行配置 API）</li>
+            <li><strong>其他</strong>：无额外权限请求</li>
+        </ul>
+
+        <h3>Android 权限</h3>
+        <ul>
+            <li><strong>网络权限</strong>：仅用于 AI 祝福语功能</li>
+            <li><strong>开机启动</strong>：用于在设备重启后更新小组件</li>
+            <li><strong>其他</strong>：无额外权限请求</li>
+        </ul>
+
+        <h2>儿童隐私</h2>
+        <p>本应用适合所有年龄段的用户，包括 13 岁以下的儿童。由于我们不收集任何数据，因此也没有针对儿童数据的特殊处理。</p>
+
+        <h2>隐私政策更新</h2>
+        <p>我们可能会不时更新本隐私政策。任何更改都会在本页面发布，并在 App Store 中更新。</p>
+
+        <div class="contact">
+            <h2>联系我们</h2>
+            <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p>
+            <ul>
+                <li>邮箱：alexzhang76@gmail.com</li>
+                <li>GitHub： <a href="https://github.com/alexzhang76/countdown-widget">github.com/alexzhang76/countdown-widget</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
