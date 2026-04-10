@@ -62,8 +62,7 @@
 ## 联系我们
 
 如果您对本隐私政策有任何疑问，请通过以下方式联系我们：
-- 邮箱：alexzhang76@gmail.com
-- GitHub：https://github.com/alexzhang76/countdown-widget
+- 邮箱：mengine@maifuture.tech
 
 ---
 
