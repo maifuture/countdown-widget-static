@@ -12,7 +12,9 @@
 - [assets/share.png](assets/share.png) - 应用分享二维码/宣传图片
 
 ### App Store 截图
-- [screenshots/](screenshots/) - App Store 提交用截图 (1284x2778)
+
+#### iOS 截图
+- [screenshots/iOS/](screenshots/iOS/) - iOS App Store 提交用截图 (1284x2778)
   - 01_home.png - 主界面
   - 02_ai_settings.png - AI 设置
   - 03_add_event.png - 添加事件
@@ -22,6 +24,15 @@
   - 08_main_widget.png - 主屏幕 Widget
   - 09_lock_screen_widget.png - 锁屏 Widget
   - 10_additional_screen.png - 附加页面
+
+#### Android 截图
+- [screenshots/Android/](screenshots/Android/) - Android 应用商店提交用截图 (1284x2778)
+  - 01_home.png - 主界面
+  - 02_ai_settings.png - AI 设置
+  - 03_add_event.png - 添加事件
+  - 04_share_sheet.png - 分享功能
+  - 05_main_with_event.png - 带高考倒计时
+  - 06_home_screen_widget.png - 主屏幕带 Widget
 
 ## 访问链接
 
